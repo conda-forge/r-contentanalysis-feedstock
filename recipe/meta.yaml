@@ -12,7 +12,7 @@ source:
   sha256: 1c070994abc476c474427cf55f5933e4c641427ea974d76a224ccdaac2036f8f
 
 build:
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -27,7 +27,7 @@ requirements:
     - {{ posix }}zip               # [win]
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
-    - r-base >=4.4
+    - r-base
     - r-base64enc >=0.1_3
     - r-dplyr >=1.1.0
     - r-httr2 >=0.2.0
@@ -43,7 +43,7 @@ requirements:
     - r-tidytext >=0.4.3
     - r-visnetwork >=2.1.4
   run:
-    - r-base >=4.4
+    - r-base
     - r-base64enc >=0.1_3
     - r-dplyr >=1.1.0
     - r-httr2 >=0.2.0
