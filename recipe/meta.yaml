@@ -65,7 +65,7 @@ test:
     - "\"%R%\" -e \"library('contentanalysis')\""  # [win]
 
 about:
-  home: https://github.com/massimoaria/contentanalysis,
+  home: https://github.com/massimoaria/contentanalysis
   license: GPL-3.0-or-later
   summary: Provides comprehensive tools for extracting and analyzing scientific content from PDF documents, including citation extraction, reference matching, text analysis, and bibliometric indicators. Supports multi-column PDF layouts, 'CrossRef' API 
     <https://www.crossref.org/documentation/retrieve-metadata/rest-api/> integration, and advanced citation parsing.
