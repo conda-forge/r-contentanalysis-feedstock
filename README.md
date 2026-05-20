@@ -3,7 +3,7 @@ About r-contentanalysis-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-contentanalysis-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/massimoaria/contentanalysis,
+Home: https://github.com/massimoaria/contentanalysis
 
 Package license: GPL-3.0-or-later
 
