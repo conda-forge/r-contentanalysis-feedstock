@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/contentanalysis_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/contentanalysis/contentanalysis_{{ version }}.tar.gz
-  sha256: da571ba53f3770d279770552f10b5e3d967acabafd95f9f652294986bf444861
+  sha256: 92673848dc474eec15c497e5dd226ff9dc7388232263fc4bd6667cca44f3f67a
 
 build:
   number: 0
@@ -65,7 +65,7 @@ test:
     - "\"%R%\" -e \"library('contentanalysis')\""  # [win]
 
 about:
-  home: https://github.com/massimoaria/contentanalysis,
+  home: https://github.com/massimoaria/contentanalysis
   license: GPL-3.0-or-later
   summary: Provides comprehensive tools for extracting and analyzing scientific content from PDF documents, including citation extraction, reference matching, text analysis, and bibliometric indicators. Supports multi-column PDF layouts, 'CrossRef' API 
     <https://www.crossref.org/documentation/retrieve-metadata/rest-api/> integration, and advanced citation parsing.
